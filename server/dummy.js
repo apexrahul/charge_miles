@@ -107,7 +107,7 @@ module.exports= [
                             "United Kingdom",
                             "Poland"
                         ],
-                        "KeyWords":[
+                        "interests":[
                             "Easy DevOps",
                             "DevOps As A Service",
                             "DevOps",
