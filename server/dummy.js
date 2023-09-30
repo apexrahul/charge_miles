@@ -8,7 +8,7 @@ module.exports= [
             "platforms":{
                 "facebook": {
                     "status":"Delivering",
-                    "total_budget":40,
+                    "total_budget":42,
                     "remaining_budget":12,
                     "start_date":1530568800000,
                     "end_date":1532901600000,
@@ -48,7 +48,7 @@ module.exports= [
                 },
                 "instagram": {
                     "status":"Delivering",
-                    "total_budget":44,
+                    "total_budget":43,
                     "remaining_budget":14,
                     "start_date":1530568800000,
                     "end_date":1532901600000,
@@ -183,7 +183,7 @@ module.exports= [
                 },
                 "instagram": {
                     "status":"Ended",
-                    "total_budget":180,
+                    "total_budget":170,
                     "remaining_budget":0,
                     "start_date":1513724400000,
                     "end_date":1514674800000,
@@ -231,7 +231,7 @@ module.exports= [
             "platforms":{
                 "facebook": {
                     "status":"Scheduled",
-                    "total_budget":40,
+                    "total_budget":30,
                     "remaining_budget":40,
                     "start_date":1532901600000,
                     "end_date":1535580000000,
@@ -269,7 +269,7 @@ module.exports= [
                 },
                 "instagram": {
                     "status":"Scheduled",
-                    "total_budget":50,
+                    "total_budget":70,
                     "remaining_budget":40,
                     "start_date":1532901600000,
                     "end_date":1535580000000,
