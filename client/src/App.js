@@ -64,7 +64,7 @@ function App() {
                 <h2>Target Audience</h2>
                 <div>
                   <div>
-                    <p>Languages</p>
+                    <p style={{fontWeight: "bold", marginBottom: "1rem"}}>Languages</p>
                     <ul>
                       {data.target_audiance.locations.map((location) => (
                         <li>{location}</li>
@@ -72,7 +72,7 @@ function App() {
                     </ul>
                   </div>
                   <div>
-                    <p>Genders</p>
+                    <p style={{fontWeight: "bold", marginBottom: "1rem"}}>Genders</p>
                     <ul>
                       {data.target_audiance.genders.map((gender) =>
                         gender === "M" ? <li>Male</li> : <li>Female</li>
@@ -80,7 +80,7 @@ function App() {
                     </ul>
                   </div>
                   <div>
-                    <p>Age Limit</p>
+                    <p style={{fontWeight: "bold", marginBottom: "1rem"}}>Age Limit</p>
                     <ul>
                       {data.target_audiance.age_range.map((age) => (
                         <li>{age}</li>
@@ -88,7 +88,7 @@ function App() {
                     </ul>
                   </div>
                   <div>
-                    <p>Interests</p>
+                    <p style={{fontWeight: "bold", marginBottom: "1rem"}}>Interests</p>
                     <ul>
                       {data.target_audiance.interests.map((interest) => (
                         <li>{interest}</li>
@@ -112,7 +112,7 @@ function App() {
                 </a>
 
                 {/* to be done */}
-                <img src={`img4${data.creatives.image}`} alt="Logo" />
+                <img src={`./assets/${data.creatives.image}`} alt="Logo" />
               </div>
 
               <div className="insights">
