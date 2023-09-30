@@ -183,3 +183,9 @@ p{
    place-content: center;
    grid-gap: 2rem;
  }
+
+ .modal h2:nth-child(1), .modal h2:nth-child(2){
+   border-bottom: solid 2px lightgray;
+   font-size: 14px;
+   padding-bottom: 1rem
+ }
