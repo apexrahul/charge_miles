@@ -100,7 +100,9 @@ function App() {
 
               <div className="creatives">
                 <h2>Creatives</h2>
-                <p>Header : {data.creatives.header}</p>
+                <div className="creatives-content">
+                  <div>
+                  <p>Header : {data.creatives.header}</p>
                 <p>Description : {data.creatives.description}</p>
                 <a
                   href={data.creatives.url}
@@ -110,9 +112,11 @@ function App() {
                 >
                   {data.creatives.url}
                 </a>
-
-                {/* to be done */}
-                <img src={`./assets/${data.creatives.image}`} alt="Logo" />
+                  </div>
+                  <div>
+                  <img src={`./${data.creatives.image}`} alt="Logo" />
+                  </div>
+                </div>
               </div>
 
               <div className="insights">
